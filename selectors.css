@@ -1,0 +1,62 @@
+header {
+    border: 1px solid goldenrod;
+}
+          
+header li {
+    padding: 15px 10px;
+    display: inline-block;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Any text in an element with class "disabled" should be colored grey,
+unless it is an attribute of an anchor tag. If it is an attribute of an anchor tag,
+it should be colored purple. */
+
+.disabled {
+    color: grey;
+}
+
+a .disabled {
+    color: orange;
+}
+
+.active {
+    color: yellow;
+}
+
+.parent > div div:first-child {
+    color: red;
+}
+
+.grandparent > h4 {
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+h4.div:first-of-type {
+    color: red;
+}
+
+.parent > div div:first-child ~ h4:first-of-type {
+    background-color: red;
+}
+
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+
+footer input {
+    height: 25px;
+    width: 180px;
+}
+
+footer .promo {
+    padding-bottom: 10px;
+}
+
